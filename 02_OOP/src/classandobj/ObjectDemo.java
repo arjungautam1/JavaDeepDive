@@ -9,6 +9,5 @@ public class ObjectDemo {
         obj.address="Kathmandu";
         obj.percentage=50.5;
         obj.printDetail();
-
     }
 }
