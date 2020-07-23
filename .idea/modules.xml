@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01_Basics/01_Basics.iml" filepath="$PROJECT_DIR$/01_Basics/01_Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/02_OOP/02_OOP.iml" filepath="$PROJECT_DIR$/02_OOP/02_OOP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/03_Spring_Boot/03_Spring_Boot.iml" filepath="$PROJECT_DIR$/03_Spring_Boot/03_Spring_Boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_Junit/03_Junit.iml" filepath="$PROJECT_DIR$/03_Junit/03_Junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_Spring_Boot/03_Spring_Boot.iml" filepath="$PROJECT_DIR$/05_Spring_Boot/03_Spring_Boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/CodeLikeProInJava.iml" filepath="$PROJECT_DIR$/CodeLikeProInJava.iml" />
     </modules>
   </component>
