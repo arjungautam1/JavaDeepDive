@@ -10,6 +10,10 @@ public class DiseaseSorter {
         Disease polio=new Disease("polio",false);
         Disease malaria=new Disease("malaria",true);
 
+
+        /*Callign setter */
+        cancer.setCurable(true);
+
         List<Disease> diseases=new ArrayList<Disease>();
         diseases.add(polio);
         diseases.add(corona);

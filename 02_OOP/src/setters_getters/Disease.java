@@ -17,4 +17,11 @@ public class Disease {
         return this.curable;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCurable(boolean curable) {
+        this.curable = curable;
+    }
 }
