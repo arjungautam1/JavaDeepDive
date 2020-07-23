@@ -1,3 +1,7 @@
+package static_var_cricket;
+
+import static_var_cricket.Crickter;
+
 public class ODIRecord {
     public static void main(String[] args) {
         Crickter abd=new Crickter("Develliers",55);
@@ -5,8 +9,9 @@ public class ODIRecord {
 
         abd.setNation("South Africa");
         kohli.setNation("India");
-//        abd.setLeagueClub("Chennai");
-        abd.setLeagueClub("RCB");
+
+        Crickter.setLeagueClub("RCB");
+
 
 
         System.out.println(abd);
