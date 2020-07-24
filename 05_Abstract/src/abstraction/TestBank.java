@@ -18,10 +18,9 @@ class NIC extends Bank{
 
 public class TestBank {
     public static void main(String[] args) {
-        Bank bank;
-        bank = new NMB() ;
-        Bank bank1;
-        bank1=new NIC();
+
+        Bank bank = new NMB() ;
+        Bank bank1=new NIC();
 
         System.out.println("Rate of Interest is :"+bank.getRateOfInterest());
         System.out.println("Rate of Interest of abstraction.NIC :"+bank1.getRateOfInterest());
