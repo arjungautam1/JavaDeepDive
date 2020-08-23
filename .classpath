@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="01_Basics/src"/>
+	<classpathentry kind="src" path="02_OOP/src"/>
+	<classpathentry kind="src" path="03_Junit/src"/>
+	<classpathentry kind="src" path="04_Static/src"/>
+	<classpathentry kind="src" path="05_Abstract/src"/>
+	<classpathentry kind="src" path="HackerRank/src"/>
+	<classpathentry kind="src" path="06_compare_strings"/>
+	<classpathentry kind="output" path="out/production/01_Basics"/>
+</classpath>
