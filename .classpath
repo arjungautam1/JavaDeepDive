@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="05_Abstract/src"/>
 	<classpathentry kind="src" path="HackerRank/src"/>
 	<classpathentry kind="src" path="06_compare_strings"/>
+	<classpathentry kind="src" path="07_Collection"/>
 	<classpathentry kind="output" path="out/production/01_Basics"/>
 </classpath>
