@@ -20,12 +20,15 @@ class ComparingByKeyExample{
 	 }
   
 
-	 map.remove(26);
-    System.out.println("Updated :");
+
 	 
 	 for(Map.Entry m:map.entrySet()) {
 		 System.out.println(m.getKey()+" "+m.getValue());
 	 }
+	 
+	 
+	 map.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(System.out::println);
+	  
   
   
  }  
