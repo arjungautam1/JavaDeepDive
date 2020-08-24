@@ -15,18 +15,13 @@ class ComparingByKeyExample{
 	 map.put(29, "Gita");
 	 map.put(23, "Sharma");	
 	 
-	 for(Map.Entry m:map.entrySet()) {
-		 System.out.println(m.getKey()+" "+m.getValue());
-	 }
-  
-
-
+System.out.println("Without sorting with comparing key:");
 	 
 	 for(Map.Entry m:map.entrySet()) {
 		 System.out.println(m.getKey()+" "+m.getValue());
 	 }
 	 
-	 
+	 System.out.println("With comparing by key:");
 	 map.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(System.out::println);
 	  
   
