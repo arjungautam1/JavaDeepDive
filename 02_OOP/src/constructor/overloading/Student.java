@@ -11,6 +11,7 @@ public class Student {
 
 
     public Student(int id, String name) {
+
         this.id = id;
         this.name = name;
     }
@@ -22,14 +23,14 @@ public class Student {
     }
 
     void display() {
-        System.out.println("My id : " + id + "My name :" + name+ "Address "+ address);
+        System.out.println("My id : " + id + "My name :" + name + "Address " + address);
     }
 
     public static void main(String[] args) {
-    Student student=new Student(1,"Pooja");
-    student.display();
-    Student student1=new Student(1,"Arjun", "Lokanthali");
-    student1.display();
+        Student student = new Student(1, "Pooja");
+        student.display();
+        Student student1 = new Student(1, "Arjun", "Lokanthali");
+        student1.display();
     }
 
 }
