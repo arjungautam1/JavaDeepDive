@@ -5,12 +5,13 @@ package inheritance;/*
  */
 
 //Parent class
- class Dog {
+class Dog {
     void eat() {
         System.out.println("Eating ...");
     }
 
 }
+
 //child class
 class Puppy extends Dog {
 
@@ -22,7 +23,7 @@ class Puppy extends Dog {
 
 class Main {
     public static void main(String[] args) {
-        Puppy puppy=new Puppy();
+        Puppy puppy = new Puppy();
         puppy.eat();
         puppy.weep();
 
